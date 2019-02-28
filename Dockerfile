@@ -6,4 +6,4 @@ ADD ./main.py /home/demo/ml_demo/
 
 RUN pip install flask
 
-CMD ["python","new_main.py"]
+CMD ["python","main.py"]
