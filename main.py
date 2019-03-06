@@ -27,7 +27,7 @@ def predict():
     try:
         current_app.logger.info('Output: Welcome %s', name)
         #print('received_data_from ',request.form)
-        return jsonify(Output="Welcome "+name)
+        return jsonify(Output="Hello "+name+" Welcome to Birlasoft.")
 	
     except Exception:
         print(traceback.format_exc())
